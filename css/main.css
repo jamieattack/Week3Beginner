@@ -3,6 +3,50 @@ body {
 	
 }
 
+/*font links*/
+@font-face {
+	font-family: 'Caviar';
+	src: url("../fonts/CaviarDreams.ttf");
+}
+
+
+@font-face {
+	font-family: 'CaviarBold';
+	src: url("../fonts/CaviarDreams_Bold.ttf");
+}
+
+/*font styles*/
+
+.nav-left span {
+	font-family: 'CaviarBold';
+	margin: 0px;
+	padding:0px;
+}
+.nav-left p {
+	font-family: 'Caviar';
+	margin:0px;
+	padding:0px;
+}
+
+.nav-right li {
+	font-family: 'Caviar';
+}
+.text p {
+	font-family: 'Caviar';
+	color: #fe7d00;
+}
+.text span {
+	font-family: 'CaviarBold';
+}
+
+.blue {
+	color:#7accc8;
+}
+
+button {
+	font-family: 'CaviarBold';
+}
+
 /*navigation bar*/
 .navigation-bar {
 	background-color:#fe7d00;
@@ -14,8 +58,8 @@ body {
 }
 
 .nav-left img {
-	width:35px; 
-	height:35px;
+	width:25px; 
+	height:25px;
 	margin-top:0px; 
 	background-color: white; 
 	border-radius: 50%;
@@ -28,7 +72,7 @@ body {
 	font-size:35px;
 	padding:25px;
 	margin-left:100px;
-	margin-top:10px;
+	margin-top:5px;
 
 }
 
@@ -90,7 +134,8 @@ body {
 	margin-top:150px;
 }
 .text {
-	margin: 40px;
+	margin: 25px;
+
 }
 
 /*buttons*/
@@ -105,6 +150,7 @@ button {
 	width:240px;
 	margin-right:30px;
 	cursor:pointer;
+	margin-top:15px;
 
 }
 
